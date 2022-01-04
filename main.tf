@@ -1,8 +1,8 @@
 provider "aws" {
   region = "us-east-1"
 }
-resource "aws_s3_bucket" "veparala12345" {
-  bucket = "my-tf-test-bucket"
+resource "aws_s3_bucket" "testing3412345" {
+  bucket = "testing3412345"
   acl    = "private"
 
   tags = {
