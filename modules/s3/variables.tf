@@ -1,8 +1,8 @@
 variable "bucket_name" {
     description = "Name of the bucket"
-    type = "String"
+    type = string
 }
 variable "acl" {
     description = "Name of the ACL"
-    type = "String"
+    type = string
 }
